@@ -1484,7 +1484,7 @@ img.logo {
   top: 30px;
   left: 40px;
   padding: 10px;
-  background: #111;
+  background-color: rgba(11, 11, 11, .5);
   z-index: 3;
   height: 35px;
   width: auto;
@@ -1861,11 +1861,11 @@ main.scale-down {
 }
 
 .padding-top,.padding-top-bottom {
-  padding-top: 140px;
+  padding-top: 60px;
 }
 
 .padding-bottom,.padding-top-bottom {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .social-wrapper a {
@@ -1926,6 +1926,16 @@ main.scale-down {
   background-color: #060606;
 }
 
+.back-dark12 {
+  background-color: rgba(9, 9, 9, .6);
+  border-top: 1px solid rgba(66, 66, 66, .6);
+  border-bottom: 1px solid rgba(66, 66, 66, .6);
+}
+
+.back-dark11 {
+  background-color: rgba(6, 6, 6, .6);
+  border-top: 1px solid rgba(66, 66, 66, .6);
+}
 .title-text {
   position: relative;
   width: 100%;
@@ -2037,14 +2047,6 @@ main.scale-down {
   position: relative;
   margin: 0 auto;
   display: block;
-  -moz-transform: rotate(-2deg) translate(0, 0);
-  -ms-transform: rotate(-2deg) translate(0, 0);
-  -webkit-transform: rotate(-2deg) translate(0, 0);
-  transform: rotate(-2deg) translate(0, 0);
-  text-transform: uppercase;
-  -moz-animation: fly-1 8s infinite ease-in-out;
-  -webkit-animation: fly-1 8s infinite ease-in-out;
-  animation: fly-1 8s infinite ease-in-out;
 }
 
 .launch-button__glare-2:after,.launch-button__glare:after {
@@ -2634,6 +2636,17 @@ progress::-webkit-progress-bar {
   animation: fly-3 5s infinite ease-in-out;
 }
 
+.item-top-text {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #dedede;
+}
+
 .about-top-text,.about-wrap .about-icon {
   margin: 0 auto;
   position: relative;
@@ -2652,6 +2665,7 @@ progress::-webkit-progress-bar {
   position: relative;
   width: 100%;
   max-width: 650px;
+  margin: 0 auto 0;
 }
 
 .about-wrap h5 {
@@ -2669,7 +2683,7 @@ progress::-webkit-progress-bar {
 
 .about-wrap .about-icon {
   padding-bottom: 20px;
-  width: 60px;
+  width: 200px;
   height: 60px;
   display: block;
   z-index: 3;
@@ -2744,7 +2758,7 @@ svg * {
 
 @media only screen and (max-width: 1000px) {
   .padding-bottom,  .padding-top-bottom {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
 
   #royal_preloader.royal_preloader_number .royal_preloader_percentage {
@@ -2950,7 +2964,7 @@ svg * {
 }
 
 .about-wrap .about-icon,.contact-top-text a,progress {
-  color: #F6A804;
+  color: #ffffff;
 }
 
 #owl-slider-1.owl-theme .owl-controls .owl-page.active span,#owl-slider-2.owl-theme .owl-controls .owl-page.active span,#owl-slider-3.owl-theme .owl-controls .owl-page.active span,#owl-slider-4.owl-theme .owl-controls .owl-page.active span,#owl-slider.owl-theme .owl-controls .owl-page.active span {
