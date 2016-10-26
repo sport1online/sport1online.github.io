@@ -2328,7 +2328,6 @@ main.scale-down {
 
 .home-sub span {
   background-color: #111;
-  padding: 10px 30px;
 }
 
 .page-center-text-home h1 span.cross-out {
@@ -2904,8 +2903,8 @@ svg * {
   }
 
   .home-sub span {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .parallax-color,  .parallax-color-1,  .parallax-color-2,  .parallax-color-3,  .parallax-color-4 {
