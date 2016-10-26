@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="431px" viewBox="0 0 504 431" width="504px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 504 431">        
+	<g fill-rule="evenodd" stroke-width="2" fill="none">  
+		<g id="Group" stroke="#FFE217" transform="translate(244 153)">       
+			<path d="m15.9 10.7v-9.8"/>          
+			<path d="m15.9 21.1v8.7"/>          
+			<path d="m20.4 16h9.6"/>         
+			<path d="m9.59 16h-9.46"/>     
+		</g>   
+		<path stroke="#FB3D6A" d="m204 285c0 4 3 7 7 7s7-3 7-7"/>  
+		<path stroke="#FB3D6A" d="m51 102c0-4.4-3.1-7.5-7-7.5s-7 3.1-7 7.5"/>
+		<g id="wave" stroke="#B8E986" transform="translate(318 94)">     
+			<path d="m0 4c0 2.76 2.01 5 4.5 5s4.5-2.24 4.5-5"/>     
+			<path d="m18 4c0 2.76 2 5 4.5 5s4.5-2.24 4.5-5"/>       
+			<path d="m18 5c0-2.76-2-5-4.5-5-2.5 4.44e-16 -4.5 2.24-4.5 5"/>    
+			<path d="m36 5c0-2.76-2-5-4.5-5-2.5 4.44e-16 -4.5 2.24-4.5 5"/>   
+		</g>          
+	</g>
+</svg>
