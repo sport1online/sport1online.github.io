@@ -5057,7 +5057,7 @@ var cbpAnimatedHeader = function () {
     }), a(function () {
         var b = a("title").text();
         a(window).blur(function () {
-            a("title").text("Miss you! :(")
+            a("title").text("-> Sport1 Labs <-")
         }), a(window).focus(function () {
             a("title").text(b)
         })
