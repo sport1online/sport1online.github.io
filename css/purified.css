@@ -2057,6 +2057,7 @@ main.scale-down {
 
 .all-items .launch-button {
   width: 240px;
+  margin-bottom: 5px;
 }
 
 .launch-button:hover {
