@@ -5049,6 +5049,7 @@ var cbpAnimatedHeader = function () {
     function d() {
     }
 
+    /*
     Royal_Preloader.config({
         mode: "progress",
         showProgress: !0,
@@ -5062,6 +5063,7 @@ var cbpAnimatedHeader = function () {
             a("title").text(b)
         })
     });
+    */
     var b = {duration: 500, type: "oneByOne", animTimingFunction: Vivus.EASE};
     new Vivus("svg-icon-1", b, d), a(window).scroll(function () {
         var b = a(".fade-elements"), c = a(this).scrollTop();
