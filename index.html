@@ -3,20 +3,98 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="referrer" content="same-origin">
 <meta name="format-detection" content="telephone=no">
 
 <title>SPORT1</title>
 
-<marquee>
+<style>
+:root {
+    --dark-background-color: #222;
+    --dark-text-color: #fafafa;
+
+    --light-background-color: #fafafa;
+    --light-text-color: #222;
+
+    --link-color: #0095dd;
+    --link-visited-color: #b5f;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    --background-color: var(--light-background-color);
+    --text-color: var(--light-text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --background-color: var(--dark-background-color);
+        --text-color: var(--dark-text-color);
+    }
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: monospace;
+    line-height: 1.6;
+    margin: auto;
+    max-width: 72ch;
+    padding: 1rem 1.5rem;
+}
+</style>
+
+<marquee direction="left">
 <pre>
- __________________________________ 
-&lt; Segmentation fault (core dumped) &gt;
- ---------------------------------- 
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+  ******** *******    *******   *******   **********  **
+ **////// /**////**  **/////** /**////** /////**///  ***
+/**       /**   /** **     //**/**   /**     /**    //**
+/*********/******* /**      /**/*******      /**     /**
+////////**/**////  /**      /**/**///**      /**     /**
+       /**/**      //**     ** /**  //**     /**     /**
+ ******** /**       //*******  /**   //**    /**     ****
+////////  //         ///////   //     //     //     ////
 </pre>
 </marquee>
+
+<marquee direction="right">
+<pre>
+ ad88888ba  88888888ba    ,ad8888ba,   88888888ba 888888888888 88
+d8"     "8b 88      "8b  d8"'    `"8b  88      "8b     88    ,d88
+Y8,         88      ,8P d8'        `8b 88      ,8P     88  888888
+`Y8aaaaa,   88aaaaaa8P' 88          88 88aaaaaa8P'     88      88
+  `"""""8b, 88""""""'   88          88 88""""88'       88      88
+        `8b 88          Y8,        ,8P 88    `8b       88      88
+Y8a     a8P 88           Y8a.    .a8P  88     `8b      88      88
+ "Y88888P"  88            `"Y8888Y"'   88      `8b     88      88
+</pre>
+</marquee>
+
+<marquee direction="down">
+<pre>
+ S)ssss  P)ppppp   O)oooo  R)rrrrr  T)tttttt   1)!
+S)    ss P)    pp O)    oo R)    rr    T)     1)!!
+ S)ss    P)ppppp  O)    oo R)  rrr     T)       1)
+     S)  P)       O)    oo R) rr       T)       1)
+S)    ss P)       O)    oo R)   rr     T)       1)
+ S)ssss  P)        O)oooo  R)    rr    T)    1)!!!!!
+</pre>
+</marquee>
+
+<marquee direction="up">
+<pre>
+___________________________________________
+__  ___/__  __ \_  __ \__  __ \__  __/_<  /
+_____ \__  /_/ /  / / /_  /_/ /_  /  __  /
+____/ /_  ____// /_/ /_  _, _/_  /   _  /
+/____/ /_/     \____/ /_/ |_| /_/    /_/
+</pre>
+</marquee>
+
+<script>
+console.debug("SPORT1"); // boring, without formatting
+</script>
+
+<!-- Don't look at this! It's boring, too. -->
